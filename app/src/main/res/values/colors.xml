@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="primary">#2563EB</color>
+    <color name="primary_variant">#1D4ED8</color>
+    <color name="primary_light">#3B82F6</color>
+    <color name="primary_container">#DBEAFE</color>
+    <color name="on_primary_container">#1E3A8A</color>
+    <color name="secondary">#06B6D4</color>
+    <color name="secondary_container">#CFFAFE</color>
+    <color name="on_secondary_container">#164E63</color>
+
+    <!-- Neutral light -->
+    <color name="background_light">#F8FAFC</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_variant_light">#F1F5F9</color>
+    <color name="card_stroke_light">#E2E8F0</color>
+    <color name="text_primary_light">#0F172A</color>
+    <color name="text_secondary_light">#64748B</color>
+    <color name="text_tertiary_light">#94A3B8</color>
+
+    <!-- Neutral dark -->
+    <color name="background_dark">#0B0F19</color>
+    <color name="surface_dark">#131B2E</color>
+    <color name="surface_variant_dark">#1E293B</color>
+    <color name="card_stroke_dark">#334155</color>
+    <color name="text_primary_dark">#F8FAFC</color>
+    <color name="text_secondary_dark">#94A3B8</color>
+    <color name="text_tertiary_dark">#64748B</color>
+
+    <!-- Status & Category badges -->
+    <color name="color_success">#10B981</color>
+    <color name="color_success_container">#D1FAE5</color>
+    <color name="color_warning">#F59E0B</color>
+    <color name="color_warning_container">#FEF3C7</color>
+    <color name="color_error">#EF4444</color>
+    <color name="color_error_container">#FEE2E2</color>
+    <color name="color_info">#3B82F6</color>
+    <color name="color_info_container">#DBEAFE</color>
+
+    <!-- Category colors -->
+    <color name="cat_video">#8B5CF6</color>
+    <color name="cat_video_bg">#EDE9FE</color>
+    <color name="cat_audio">#EC4899</color>
+    <color name="cat_audio_bg">#FCE7F3</color>
+    <color name="cat_image">#10B981</color>
+    <color name="cat_image_bg">#D1FAE5</color>
+    <color name="cat_doc">#F59E0B</color>
+    <color name="cat_doc_bg">#FEF3C7</color>
+    <color name="cat_other">#6366F1</color>
+    <color name="cat_other_bg">#E0E7FF</color>
+
+    <!-- Base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">AllDown</string>
+    <string name="app_tagline">Paste. Choose. Download.</string>
+    <string name="app_description">Universal Media &amp; File Downloader for direct and legitimate public content.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="url_input_hint">Paste video, audio, image or file URL</string>
+    <string name="btn_paste">Paste</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_analyze">ANALYZE LINK</string>
+    <string name="btn_analyzing">ANALYZING LINK…</string>
+    <string name="recent_downloads">Recent Downloads</string>
+    <string name="storage_info">Device Storage</string>
+    <string name="storage_used_of">%1$s used of %2$s (%3$s free)</string>
+    <string name="view_all">View all</string>
+    <string name="no_recent_downloads">No recent downloads</string>
+    <string name="clipboard_detected_title">Link detected from clipboard</string>
+    <string name="clipboard_detected_msg">Would you like to analyze this URL?</string>
+    <string name="clipboard_paste_btn">Paste</string>
+    <string name="clipboard_dismiss_btn">Dismiss</string>
+
+    <!-- Analyzer Sheet -->
+    <string name="media_analysis">Media Details</string>
+    <string name="quality">Quality</string>
+    <string name="format">Format</string>
+    <string name="size">Size</string>
+    <string name="action">Action</string>
+    <string name="download">Download</string>
+    <string name="video_resolutions">Available Video Resolutions</string>
+    <string name="audio_formats">Available Audio Streams</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="file_details">File Details</string>
+    <string name="security_warning_title">Security Notice</string>
+    <string name="apk_warning_msg">This file is an Android application package (APK). Only install apps from sources you trust.</string>
+    <string name="unsupported_url_msg">This link does not provide a supported downloadable resource.</string>
+    <string name="protected_content_msg">This protected content cannot be downloaded by AllDown. AllDown only supports legitimate direct public downloads.</string>
+
+    <!-- Download Manager & Status -->
+    <string name="download_manager">Download Manager</string>
+    <string name="active_downloads">Active Downloads</string>
+    <string name="no_active_downloads">No active downloads in progress</string>
+    <string name="status_queued">Queued</string>
+    <string name="status_downloading">Downloading…</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_completed">Completed ✓</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_rename">Rename</string>
+    <string name="btn_download_again">Download Again</string>
+
+    <!-- Categories -->
+    <string name="cat_all">All</string>
+    <string name="cat_video_title">Video</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_image_title">Images</string>
+    <string name="cat_documents_title">Documents</string>
+    <string name="cat_other_title">Other</string>
+
+    <!-- History -->
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_confirm">Are you sure you want to clear your entire download history? (Downloaded files on storage will remain untouched).</string>
+    <string name="clear_history_btn">Clear All</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_history">No download history yet</string>
+
+    <!-- Settings -->
+    <string name="pref_theme">Theme</string>
+    <string name="pref_theme_system">System Default</string>
+    <string name="pref_theme_light">Light Mode</string>
+    <string name="pref_theme_dark">Dark Mode</string>
+    <string name="pref_download_location">Download Directory</string>
+    <string name="pref_download_location_desc">Default storage location for saved files</string>
+    <string name="pref_wifi_only">Download on Wi-Fi only</string>
+    <string name="pref_wifi_only_desc">Pause downloads when on mobile cellular data</string>
+    <string name="pref_auto_start">Auto-start downloads</string>
+    <string name="pref_auto_start_desc">Start download automatically when format is chosen</string>
+    <string name="pref_max_simultaneous">Maximum concurrent downloads</string>
+    <string name="pref_clipboard_detect">Auto-detect clipboard links</string>
+    <string name="pref_clipboard_detect_desc">Suggest analyzing copied URLs on launch</string>
+    <string name="pref_notifications">Notifications</string>
+    <string name="pref_notifications_desc">Show download progress &amp; completion alerts</string>
+    <string name="pref_about">About AllDown</string>
+    <string name="pref_about_version">Version 1.0.0 (Build 100)</string>
+    <string name="pref_about_legal">AllDown is built for downloading direct, user-owned, and legally accessible public media and documents. AllDown strictly respects DRM, intellectual property rights, and copyright protections.</string>
+
+    <!-- Search & Sort -->
+    <string name="search_hint">Search files…</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_date_desc">Date (Newest first)</string>
+    <string name="sort_date_asc">Date (Oldest first)</string>
+    <string name="sort_size_desc">Size (Largest first)</string>
+    <string name="sort_size_asc">Size (Smallest first)</string>
+    <string name="sort_name_asc">Name (A–Z)</string>
+    <string name="sort_name_desc">Name (Z–A)</string>
+
+    <!-- Dialogs & Prompts -->
+    <string name="rename_dialog_title">Rename File</string>
+    <string name="new_name_hint">Enter new file name</string>
+    <string name="save">Save</string>
+    <string name="delete_confirm_title">Delete File</string>
+    <string name="delete_confirm_msg">Are you sure you want to delete "%1$s" from device storage?</string>
+    <string name="delete_btn">Delete</string>
+
+    <!-- Notifications -->
+    <string name="channel_downloads_name">Download Manager</string>
+    <string name="channel_downloads_desc">Shows ongoing download progress and completion</string>
+    <string name="notif_downloading">Downloading %1$s</string>
+    <string name="notif_download_complete">Download complete: %1$s</string>
+    <string name="notif_download_failed">Download failed: %1$s</string>
+    <string name="notif_tap_to_open">Tap to open file</string>
+</resources>

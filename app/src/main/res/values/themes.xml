@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AllDownloader" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_light</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/surface_light</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <!-- Shape appearance -->
+        <item name="shapeAppearanceCornerSmall">@style/ShapeAppearance.AllDown.Small</item>
+        <item name="shapeAppearanceCornerMedium">@style/ShapeAppearance.AllDown.Medium</item>
+        <item name="shapeAppearanceCornerLarge">@style/ShapeAppearance.AllDown.Large</item>
+    </style>
+
+    <style name="Theme.AllDownloader" parent="Base.Theme.AllDownloader" />
+
+    <style name="ShapeAppearance.AllDown.Small" parent="ShapeAppearance.Material3.Corner.Small">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="ShapeAppearance.AllDown.Medium" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.AllDown.Large" parent="ShapeAppearance.Material3.Corner.Large">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="Widget.AllDown.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/card_stroke_light</item>
+        <item name="cardBackgroundColor">@color/surface_light</item>
+    </style>
+
+    <style name="Widget.AllDown.OutlinedCard" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/card_stroke_light</item>
+        <item name="cardBackgroundColor">@color/surface_light</item>
+    </style>
+</resources>
